@@ -66,3 +66,7 @@ website/translated_docs
 website/build/
 website/i18n/*
 !website/i18n/en.json
+
+# warriorjs
+warriorjs/
+package-lock.json

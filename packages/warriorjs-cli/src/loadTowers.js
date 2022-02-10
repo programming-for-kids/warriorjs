@@ -34,9 +34,10 @@ function getInternalTowersInfo() {
  * @returns {Object[]} The external towers info.
  */
 function getExternalTowersInfo() {
-  const cliDir = findUp.sync('@warriorjs/cli', { cwd: __dirname });
+  let cliDir = findUp.sync('@warriorjs/cli', { cwd: __dirname });
   if (!cliDir) {
-    return [];
+    // return [];
+    cliDir = './bin';
   }
 
   const cliParentDir = path.resolve(cliDir, '..');

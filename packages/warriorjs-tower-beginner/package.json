@@ -1,0 +1,27 @@
+{
+  "name": "warriorjs-tower-beginner",
+  "version": "0.13.0",
+  "description": "Beginner",
+  "author": "Robert Yan <mstr.raphael@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://warrior.js.org",
+  "repository": "https://github.com/olistic/warriorjs/tree/master/packages/warriorjs-tower-beginner",
+  "keywords": [
+    "warriorjs-tower"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --ignore test.js"
+  },
+  "dependencies": {
+    "@warriorjs/abilities": "^0.13.0",
+    "@warriorjs/geography": "^0.7.0",
+    "@warriorjs/units": "^0.13.0"
+  }
+}
