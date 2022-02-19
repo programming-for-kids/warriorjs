@@ -1,5 +1,8 @@
+cd ../warriorjs-units
+npm install && npm run build
+cd ../warriorjs-abilities
+npm install && npm run build
 cd ../warriorjs-tower-beginner
-npm run build && npm pack
+npm install && npm run build
 cd ../warriorjs-cli
-npm install ../warriorjs-tower-beginner/warriorjs-tower-beginner-0.13.0.tgz
-npm run start
+npm install && npm run start

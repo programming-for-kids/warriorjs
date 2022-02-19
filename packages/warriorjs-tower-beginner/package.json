@@ -20,8 +20,8 @@
     "build": "babel src --out-dir lib --ignore test.js"
   },
   "dependencies": {
-    "@warriorjs/abilities": "^0.13.0",
+    "@warriorjs/abilities": "file:../warriorjs-abilities",
     "@warriorjs/geography": "^0.7.0",
-    "@warriorjs/units": "^0.13.0"
+    "@warriorjs/units": "file:../warriorjs-units"
   }
 }
